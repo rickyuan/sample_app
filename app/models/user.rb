@@ -6,6 +6,6 @@ class User < ActiveRecord::Base
   validates :name,  :presence => true,
                     :length   => { :maximum => 50 }
   validates :email, :presence   => true,
-                    :formart    => { :with => email_regex },
+                    :format    => { :with => email_regex },
                     :uniqueness => { :case_sensitive => false }
 end
