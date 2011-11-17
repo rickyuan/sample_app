@@ -132,3 +132,8 @@ td.sidebar {
 	margin-bottom: -15px;
 }
 
+/* Sign up field */
+
+div.field, div.actions {
+	margin-bottom: 10px;
+}
