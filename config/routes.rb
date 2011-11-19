@@ -1,7 +1,6 @@
 SampleApp::Application.routes.draw do
 
-  resources :users
-  
+  resources :users 
   resources :sessions, :only => [ :new, :create, :destory ]
   
   root :to => "pages#home"
